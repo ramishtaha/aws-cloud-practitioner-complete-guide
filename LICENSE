@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2025 AWS Cloud Practitioner Complete Guide
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Terms for Educational Content
+
+This project contains educational materials for AWS certification preparation. While the license above applies to the structure, formatting, and original content created for this project, please note:
+
+1. **AWS Service Information**: Information about AWS services is based on publicly available AWS documentation and should be verified with official AWS sources.
+
+2. **Exam Content**: Practice questions and exam strategies are original content created for educational purposes and do not represent actual AWS certification exam questions.
+
+3. **Trademarks**: AWS, Amazon Web Services, and related trademarks are property of Amazon.com, Inc. or its affiliates.
+
+4. **Educational Use**: This material is intended for educational purposes to help individuals prepare for AWS certification exams.
+
+5. **No Warranty**: While efforts have been made to ensure accuracy, users should verify all information with official AWS documentation before making business or technical decisions.
+
+For official AWS certification information, please visit: https://aws.amazon.com/certification/

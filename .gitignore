@@ -1,0 +1,99 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Node.js (if adding any JavaScript tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if adding any Python tools later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Backup Files
+*.bak
+*.backup
+*.orig
+
+# Personal Notes (contributors might add these)
+personal-notes/
+my-progress/
+private/
+
+# Test Files
+test-results/
+coverage/
+
+# Documentation Build Files
+docs/_build/
+site/
+
+# Certificates or Credentials (should never be committed)
+*.pem
+*.key
+*.crt
+*.p12
+credentials.txt
+aws-credentials
+.aws/
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE-specific files
+.vscode/settings.json
+.idea/
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
