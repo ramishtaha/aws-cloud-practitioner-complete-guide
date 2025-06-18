@@ -201,6 +201,33 @@ Understanding how services connect and work together to create complete solution
 
 ---
 
+### 📊 [Chapter 6: Analytics Services](./analytics-services.md)
+**Study Time: ~2 hours | Importance: ⭐⭐⭐⭐**
+
+Turning data into insights with AWS analytics and business intelligence services.
+
+**What's Inside:**
+- **Amazon Athena** - Serverless SQL queries on S3 data
+- **Amazon Kinesis** - Real-time data streaming and processing
+- **Amazon QuickSight** - Business intelligence and visualization
+- **AWS Glue** - ETL and data catalog service
+- **Amazon EMR** - Big data processing with Hadoop/Spark
+- **Amazon Redshift** - Data warehouse for analytics
+
+**🎯 Key Learning Points:**
+- Real-time vs batch analytics patterns
+- Data lake and data warehouse concepts
+- Serverless analytics benefits
+- ML-powered insights and visualization
+
+**Analytics Patterns:**
+- Streaming data pipelines
+- Business intelligence dashboards
+- Data lake architectures
+- Self-service analytics
+
+---
+
 ## 🌟 Service Categories
 
 ### 📊 **Service Organization by Function**
@@ -443,6 +470,7 @@ Everything in the cloud starts with compute - understanding how to run applicati
 - [🌐 Networking Services](./networking-services.md) - VPC, load balancing, CDN
 - [🗄️ Database Services](./database-services.md) - Relational and NoSQL
 - [🔗 Integration Services](./additional-services.md) - Messaging and orchestration
+- [📊 Analytics Services](./analytics-services.md) - Data processing and visualization
 
 ### 🎯 **Quick References**
 - [Service Comparison Chart](./service-comparison.md)

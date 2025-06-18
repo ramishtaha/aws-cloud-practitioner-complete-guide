@@ -163,6 +163,65 @@ The physical and logical foundation of AWS services worldwide.
 
 ---
 
+### 🏗️ [Chapter 6: AWS Well-Architected Framework](./well-architected-framework.md)
+**Study Time: ~3 hours | Importance: ⭐⭐⭐⭐⭐**
+
+The foundational principles for building robust, efficient cloud solutions.
+
+**What's Inside:**
+- Six pillars of Well-Architected Framework
+- Design principles for each pillar
+- Trade-offs between different architectural approaches
+- Real-world scenario applications
+- Best practices for cloud architecture
+
+**🎯 Key Learning Points:**
+- Security, Reliability, Operational Excellence
+- Performance Efficiency, Cost Optimization, Sustainability
+- Architectural decision-making framework
+- Common exam scenarios and patterns
+
+---
+
+### 🏗️ [Chapter 7: Cloud Design Principles](./design-principles.md)
+**Study Time: ~2.5 hours | Importance: ⭐⭐⭐⭐**
+
+Fundamental principles that guide cloud-native architecture decisions.
+
+**What's Inside:**
+- Core design principles for cloud applications
+- Scalability, fault tolerance, and loose coupling concepts
+- Automation and Infrastructure as Code
+- Security and cost optimization in design
+- Common cloud design patterns
+
+**🎯 Key Learning Points:**
+- Loose coupling and microservices architecture
+- Design for failure and fault tolerance
+- Automation and Infrastructure as Code benefits
+- Security defense-in-depth strategies
+
+---
+
+### 🚀 [Chapter 8: AWS Migration Strategies & Cloud Adoption Framework](./migration-strategies.md)
+**Study Time: ~2.5 hours | Importance: ⭐⭐⭐⭐⭐**
+
+Strategic approaches for successful cloud migration and adoption.
+
+**What's Inside:**
+- The 6 Rs of migration strategies
+- AWS Cloud Adoption Framework (CAF)
+- AWS migration tools and services
+- Real-world migration scenarios and planning
+
+**🎯 Key Learning Points:**
+- Rehost, Replatform, Refactor, Repurchase, Retire, Retain
+- CAF perspectives: Business, People, Governance, Platform, Security, Operations
+- Migration assessment and planning approaches
+- Wave-based migration strategies and best practices
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### 🎯 If You're New to Cloud Computing

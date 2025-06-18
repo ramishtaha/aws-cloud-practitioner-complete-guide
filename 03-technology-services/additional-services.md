@@ -302,140 +302,33 @@ Request   Direct        Direct
 
 ### 📈 **Amazon CloudWatch**
 
-#### **👁️ What is CloudWatch?**
-Think of CloudWatch as **mission control** for your applications:
-- **Monitors everything** - Servers, applications, custom metrics
-- **Real-time dashboards** - Visual representation of system health
-- **Automated alerts** - Notifications when things go wrong
-- **Log aggregation** - Centralized log management
-- **Performance insights** - Understand system behavior
+#### **📊 What is CloudWatch?**
+**Monitoring and management service** for AWS resources and applications:
+- **Metrics collection** - Monitor performance and operational health
+- **Log management** - Centralized logging for applications and systems
+- **Alarms** - Automated responses to threshold breaches
+- **Dashboards** - Visualize metrics and logs in real-time
 
-#### **📊 CloudWatch Core Components**
-
-**📈 Metrics**
-- **Numerical data points** - CPU usage, memory, custom metrics
-- **Time-series data** - Values tracked over time
-- **Dimensions** - Additional attributes (instance ID, region)
-- **Namespaces** - Logical grouping of metrics
-
-**🔔 Alarms**
-- **Threshold monitoring** - Alert when metrics cross limits
-- **Actions** - SNS notifications, Auto Scaling, EC2 actions
-- **Composite alarms** - Combine multiple metrics
-- **Alarm states** - OK, ALARM, INSUFFICIENT_DATA
-
-**📋 Logs**
+#### **🔔 CloudWatch Features**
+- **Custom metrics** - Send your application metrics
 - **Log aggregation** - Collect logs from multiple sources
-- **Log groups** - Organize related log streams
-- **Retention policies** - Control how long logs are kept
-- **Log insights** - Query and analyze log data
+- **Automated actions** - Trigger Auto Scaling, notifications
+- **Real-time monitoring** - Near real-time metric delivery
 
-**📊 Dashboards**
-- **Custom visualizations** - Create graphs, charts, widgets
-- **Real-time monitoring** - Live system status
-- **Shared access** - Team collaboration
-- **Cross-region** - Monitor resources across regions
+### 🏥 **AWS Health Dashboard**
 
-#### **🎯 CloudWatch Use Cases**
+#### **🩺 What is AWS Health Dashboard?**
+**Service health monitoring** that provides visibility into AWS service health:
+- **Service health** - Real-time status of AWS services in your regions
+- **Personalized view** - Alerts relevant to your AWS resources
+- **Planned maintenance** - Advance notice of scheduled maintenance
+- **Event history** - Historical view of service events
 
-**🖥️ Infrastructure Monitoring**
-```
-EC2 Instances
-├── CPU Utilization → CloudWatch Metric
-├── Memory Usage → CloudWatch Agent
-├── Disk I/O → System Metrics
-└── Network Traffic → VPC Flow Logs
-```
-
-**📱 Application Monitoring**
-```
-Web Application
-├── Response Time → Custom Metric
-├── Error Rate → Application Logs
-├── User Sessions → Custom Metric
-└── Business KPIs → Custom Metrics
-```
-
-**🚨 Automated Response**
-```
-High CPU Alarm → SNS → Lambda → Auto Scaling
-Error Rate Alarm → SNS → PagerDuty → On-call Engineer
-Disk Space Low → SNS → Email → System Admin
-```
-
-### 🏗️ **AWS CloudFormation**
-
-#### **📋 What is CloudFormation?**
-Think of CloudFormation as **architectural blueprints** for cloud infrastructure:
-- **Infrastructure as Code** - Define infrastructure in templates
-- **Repeatable deployments** - Same infrastructure every time
-- **Version control** - Track infrastructure changes
-- **Rollback capabilities** - Undo changes if needed
-- **Dependency management** - Handle resource relationships
-
-#### **🔧 CloudFormation Components**
-
-**📄 Templates**
-- **JSON or YAML** - Human-readable infrastructure definitions
-- **Resources** - AWS services to create
-- **Parameters** - Customizable values
-- **Outputs** - Values to return after creation
-
-**📚 Stacks**
-- **Collection of resources** - Created from template
-- **Lifecycle management** - Create, update, delete together
-- **Stack events** - Track creation progress
-- **Rollback protection** - Automatic failure handling
-
-**🔄 Change Sets**
-- **Preview changes** - See what will happen before applying
-- **Impact analysis** - Understand resource modifications
-- **Safe updates** - Review before execution
-- **Change tracking** - Audit trail of modifications
-
-#### **🎯 CloudFormation Benefits**
-
-**🔄 Repeatability**
-- **Consistent environments** - Dev, test, prod identical
-- **Disaster recovery** - Rebuild infrastructure quickly
-- **Multi-region** - Deploy same architecture anywhere
-- **Team collaboration** - Shared infrastructure definitions
-
-**🛡️ Safety**
-- **Rollback on failure** - Automatic cleanup
-- **Change sets** - Preview before applying
-- **Stack policies** - Prevent accidental changes
-- **Drift detection** - Identify manual changes
-
-### 🔧 **AWS Systems Manager**
-
-#### **⚙️ What is Systems Manager?**
-**Unified interface** for managing AWS resources:
-- **Patch management** - Keep systems updated
-- **Configuration management** - Ensure consistent settings
-- **Remote access** - Secure shell access without SSH keys
-- **Automation** - Run scripts and workflows
-- **Inventory** - Track software and configurations
-
-#### **🎯 Key Features**
-
-**🔄 Session Manager**
-- **Browser-based shell access** - No SSH keys needed
-- **Audit logging** - Track all shell sessions
-- **IAM integration** - Control access with policies
-- **Secure access** - No open inbound ports required
-
-**🔧 Patch Manager**
-- **Automated patching** - Keep systems up to date
-- **Maintenance windows** - Schedule updates
-- **Patch compliance** - Track patch status
-- **Custom patch baselines** - Control which patches apply
-
-**📊 Parameter Store**
-- **Configuration management** - Store application settings
-- **Encryption support** - Secure sensitive data
-- **Hierarchical storage** - Organize parameters logically
-- **Version tracking** - Track configuration changes
+#### **📱 Health Dashboard Views**
+- **Service Health Dashboard** - Public view of AWS service status
+- **Personal Health Dashboard** - Personalized view for your account
+- **Event notifications** - Automated alerts for service impacts
+- **API access** - Programmatic access to health information
 
 ---
 
@@ -580,6 +473,25 @@ AWS provides **AI/ML services for every skill level**:
 - **Real-time** - Updates recommendations instantly
 - **Multiple use cases** - Product recommendations, content ranking
 - **Easy integration** - Simple API calls
+
+**📍 Amazon Lex**
+- **Conversational AI** - Build chatbots and voice interfaces
+- **Natural language understanding** - Process speech and text
+- **Integration** - Works with Lambda for backend logic
+- **Voice and text** - Support for both interaction types
+
+**🎯 Amazon Q**
+- **AI-powered assistant** - Interactive AI assistant for AWS
+- **Code assistance** - Help with coding and development
+- **Business insights** - Answer questions about your AWS environment
+- **Integration** - Works across AWS services and third-party tools
+- **Natural language** - Ask questions in plain English
+
+#### **🔍 Amazon Kendra**
+- **Enterprise search** - Intelligent search for documents
+- **Machine learning powered** - Understands natural language queries
+- **Multiple data sources** - Search across various systems
+- **Contextual answers** - Provides relevant results with context
 
 #### **🎯 ML Use Cases by Industry**
 
